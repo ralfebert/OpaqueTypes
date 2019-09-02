@@ -2,7 +2,7 @@ project:
 	xcodegen
 
 format:
-	swiftformat --header "© 2019 Ralf Ebert — OpaqueTypes" --swiftversion 5 --indentcase true --stripunusedargs unnamed-only --self insert --disable blankLinesAtStartOfScope,blankLinesAtEndOfScope .
+	swiftformat --header "" --swiftversion 5 --indentcase true --stripunusedargs unnamed-only --self insert --disable blankLinesAtStartOfScope,blankLinesAtEndOfScope .
 
 assets:
 	# export icon

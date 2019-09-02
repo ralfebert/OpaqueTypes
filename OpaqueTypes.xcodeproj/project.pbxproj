@@ -11,6 +11,7 @@
 		5376DEBDBF0CA2C444AED3CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC38D0D6640169B23F5570F /* Main.storyboard */; };
 		749601A4714F59F365DBB567 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99258BE7B96D7EB3647CC73C /* LaunchScreen.storyboard */; };
 		BF06BE14FA067CA0A9F1E34A /* OpaqueTypesAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FD3AEFBF1404FD120BCD9D /* OpaqueTypesAppDelegate.swift */; };
+		BF77EE0B231D6AC900A9E74A /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF77EE0A231D6AC900A9E74A /* Shapes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		37FD3AEFBF1404FD120BCD9D /* OpaqueTypesAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpaqueTypesAppDelegate.swift; sourceTree = "<group>"; };
 		3CFE504E03E18C05FE489CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E7D8A3BE22F20F36101FA43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF77EE0A231D6AC900A9E74A /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		1AEFC4F2938FEBE8EED5EB8F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BF77EE0A231D6AC900A9E74A /* Shapes.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				en,
 				Base,
 			);
 			mainGroup = F41E81223C089846390E5DCC;
@@ -153,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF06BE14FA067CA0A9F1E34A /* OpaqueTypesAppDelegate.swift in Sources */,
+				BF77EE0B231D6AC900A9E74A /* Shapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -236,7 +241,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OpaqueTypes/App/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.OpaqueTypes;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -287,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -302,7 +310,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OpaqueTypes/App/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.OpaqueTypes;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
